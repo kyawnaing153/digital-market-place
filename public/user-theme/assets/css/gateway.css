@@ -1,0 +1,64 @@
+.stripe-panel-wrapper {
+    background-color: rgb(245, 248, 250);
+    height: 100vh;
+}
+
+.panel {
+    max-width: 800px;
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -45%);
+    border: 1px solid #eee;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 24px 57px 0px rgba(21, 49, 100, 0.1);
+    left: 50%;
+}
+
+.panel-head {
+    font-size: 30px;
+    color: #112a49;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.panel-body .form-control {
+    min-height: 40px;
+    color: #53627a;
+    background-color: rgb(245, 248, 250);
+    padding: 10px 20px
+}
+.panel-body a.btn-close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #c0c4c9;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199px) {
+    .panel {
+        max-width: 100%;
+        width: 90%;
+    }
+}
+
+
+.razorpay-payment-button {
+    background: #216fff;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 18px;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    min-width: 200px;
+    border-radius: 5px;
+}

@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+}
+
+.success {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #ff4343;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.checkmark {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left: -15px;
+}
+
+.crossmark {
+    color: #ff4343;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left: -15px;
+}
+
+.card {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tp_success {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    background: #F8FAF5;
+    margin: 0 auto;
+}
+
+
+.btn{
+    max-width: 170px;
+    padding: 0 30px;
+    min-height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #216fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    gap: 10px;
+    text-decoration: none;
+}
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
